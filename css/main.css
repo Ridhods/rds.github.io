@@ -33,7 +33,7 @@ h2 {
 }
 p{
 	font-family:  'Sriracha', cursive;
-	font-size: 1.3rem;
+	font-size: .9rem;
 	background-color: orange;
 }
 a {
@@ -48,10 +48,11 @@ a:hover {
 ol{
 	font-family: 'Bebas Neue', cursive;
 	padding:2rem;
-	font-size: 3rem;
-	line-height: 3rem;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
 	background-color: #f1edee;
-	height: 100vh;
+	box-sizing: border-box;
+
 }
 /*skill Style*/
 progress[value] {
@@ -102,7 +103,7 @@ progress[value] {
 	background-color: #F1EDEE;
 	padding: 12px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-content: center;
 
 }
@@ -113,6 +114,7 @@ progress[value] {
 .empatdua{
 	display: flex;
 	justify-content: flex-start;
+
 
 
 
